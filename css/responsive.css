@@ -232,7 +232,7 @@
         justify-content: flex-end;
     }
     #whatsapp {
-        top: 515px;
+        bottom: 20px;
         width: 60px;
         right: 20px;
     }
@@ -250,7 +250,7 @@
 }
 @media (max-width: 767px){
     #whatsapp {
-        top: 450px;
+        bottom: 20px;
     }
 }
 @media (max-width: 675px) {
@@ -260,7 +260,7 @@
 }
 @media (max-width: 629px) {
     #whatsapp {
-        top: 515px;
+        bottom: 20px;
         right: 20px;
     }
 }
@@ -314,7 +314,7 @@
         margin-bottom: 10px;
     }
     #whatsapp {
-        top: 400px;
+        bottom: 20px;
         right: 20px;
     }
 }
