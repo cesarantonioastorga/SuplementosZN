@@ -152,6 +152,9 @@ main {
 #location {
     align-self: start;
 }
+#location img {
+    width: 40px;
+}
 .contacto-p{
     letter-spacing: 0.5px;
     line-height: 20px;
@@ -189,8 +192,3 @@ main {
     height: 460px;
 }
 /*__/CONTACTO__*/
-
-
-
-
-
