@@ -329,8 +329,11 @@
         height: 1050px !important;
     }
 }
-@media (max-width: 420px) {
+@media (max-width: 429px) {
     #mobile-title-mayoristas {
         font-size: 21px;
+    }
+    footer {
+        padding: 20px 0 10px;
     }
 }
