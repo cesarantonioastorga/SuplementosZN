@@ -305,7 +305,7 @@
         font-size: 14px !important;
     }
     .button-container2 button {
-        padding: 20px 35px;
+        padding: 20px 35px !important;
     }
     .button-container2 h5 {
         font-size: 17px !important;
