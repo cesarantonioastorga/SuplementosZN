@@ -41,6 +41,9 @@ header nav ul li a {
 .height-65 {
     height: 65%;
 }
+.height-65 img {
+    width: 500px;
+}
 /* /HEADER */
 
 
