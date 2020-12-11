@@ -1,0 +1,336 @@
+@media (min-width: 992px){
+    .menu_on-container {
+        display: none!important;
+    }
+    .nuestros-precios-image-container-mobile {
+        display: none!important;
+    }
+    .como-comprar-image-container-mobile{
+        display: none!important;
+    }
+    #mobile-title-mayoristas {
+        display: none!important;
+    }
+    #contact-title {
+        display: none!important;
+    }
+}
+@media (max-width: 1280px) {
+    header nav ul li a {
+        font-size: 19px;
+    }
+    .contact-map-container iframe {
+        width: 400px !important;
+        height: 350px;
+        margin-left: 45px;
+    }
+    .contacto-p-container {
+        width: 350px;
+    }
+    .contacto-p {
+        font-size: 18px;
+    }
+}
+@media (max-width: 991px) {
+    .menu-pages div {
+        display: none !important;
+    }
+    .title {
+        display: none;
+    }
+    #mobile-title {
+        color: white;
+        font-size: 29px;
+        margin: 0;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    #mobile-title-mayoristas {
+        color: white;
+        font-size: 29px;
+        margin: 0;
+        padding: 0 60px 20px;
+        text-align: center;
+    }
+    .container {
+        margin: 0;
+        max-width: 100%!important;
+    }
+    #logo-nav {
+        display: none;
+    }
+    #logo-nav-responsive {
+        position: relative;
+        z-index: 2;
+        width: 200px;
+    }
+    .menu_on-container-home {
+        padding: 20px 10px;
+        display: flex;
+        height: 117px;
+        align-content: center;
+    }
+    .menu_on-container {
+        padding: 20px 10px;
+        background: black;
+        display: flex;
+        height: 117px;
+        align-content: center;
+    }
+    #menu_on{
+        display: block;
+        width:30px;
+        height: 20px;
+        position: relative;
+        z-index: 2;
+    }
+    .span-burger{
+        margin: auto;
+    }
+    
+    #menu_on span{
+        width: 30px;
+        height: 4px;
+        border-radius: 4px;
+        display: block;
+        position: absolute;
+        background: #fff;
+        transition: all 0.25s ease;
+        transform-origin : 0px 100%;
+    }
+    
+    #menu_on span:nth-child(2){
+        top: calc(50% - 2px);
+    }
+    
+    #menu_on span:nth-child(3){
+    bottom: 0;
+    }	
+        .visible_menu span:nth-child(1){
+            transform: rotate(45deg) translate(-2px,1px); 
+        }
+    
+        .visible_menu span:nth-child(2){
+            opacity: 0;
+        }
+    
+    
+        .visible_menu span:nth-child(3){
+            transform: rotate(-45deg) translate(-3px,3px); 
+        }
+    
+    #main-nav{
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left:-300px;
+        width: 80%;
+        height: 100%;
+        z-index: 1;
+        padding: 90px 30px 30px;
+        background: black;
+        opacity: 0;
+        font-size: 1.2em;
+    }
+    #main-nav ul {
+        display: block;
+    }
+    #main-nav ul li a {
+        font-size: 1.6rem;
+    }
+    .visible_menu #main-nav{
+        left: 0;
+        opacity: 1;
+    }
+    #main-nav a{
+        display:block;
+        text-decoration: none;
+        padding: 10px;
+        color: white;
+        transition: all ease 0.25s;
+    }
+    #main-nav a:hover{
+        color: #808080;
+        border-bottom-color:rgba(255,255,255,0.4);
+    }
+    .description-container {
+        margin-top: -100px;
+    }
+    #precios-p{
+        padding: 0 100px !important;
+        margin-bottom: 55px !important;
+    }
+    .nuestros-precios-image-container-mobile{
+        background-image: url('../images/FotoNuestrosPreciosMobile.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 199px;
+    }
+    .nuestros-precios-image-container{
+        display: none;
+    }
+    .main-container-comprar {
+        height: 700px!important;
+    }
+    .como-comprar-image-container-mobile {
+        background-image: url('../images/FotoComoComprarMobile.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 199px;
+    }
+    .como-comprar-image-container {
+        display: none;
+    }
+    .mayoristas-image-container {
+        background-image: url('../images/PortadaMayoristasMobile.png') !important;
+        justify-content: center;
+        align-content: center;
+    }
+    .main-container-contacto {
+        height: 1000px!important;
+    }
+    #contacto-container {
+        padding-left: 0!important;
+        padding-right: 0!important;
+    }
+    .contacto-container {
+        align-items: center;
+        height: 60% !important;
+        display: flex;
+    }
+    .contact-map-container {
+        padding: 0;
+        height: 40%;
+    }
+    .contact-map-container iframe{
+        padding: 0!important;
+        width: 100%!important;
+        height: 100%!important;
+        margin-bottom: -50px!important;
+        margin-left: 0 !important;
+    }
+    #contact-title {
+        color: black;
+        font-size: 31px;
+        margin: 0;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .contacto-p {
+        font-size: 20px;
+    }
+    .whatsapp-container {
+        display: flex;
+        justify-content: flex-end;
+    }
+    #whatsapp {
+        top: 665px;
+        width: 60px;
+        right: 20px;
+    }
+    
+}
+@media (max-width: 850px) {
+    #whatsapp {
+        margin-left: 20px;
+    }
+}
+@media (max-width: 774px){
+    .main-container-comprar {
+        height: 750px!important;
+    }
+}
+@media (max-width: 767px){
+    #whatsapp {
+        top: 600px;
+    }
+}
+@media (max-width: 675px) {
+    .main-container-comprar {
+        height: 800px!important;
+    }
+}
+@media (max-width: 629px) {
+    #whatsapp {
+        top: 665px;
+        right: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    #main-nav ul li a {
+        font-size: 1.4rem;
+    }
+    .header {
+        background-image: url('../images/PortadaHomeMobile.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 629px;
+    }
+    .header img {
+        width: 300px;
+    }
+    .main-container-comprar {
+        height: 950px!important;
+    }
+    .comprar-p-container {
+        padding: 0 20px;
+    }
+    .title-container {
+        padding: 20px;
+    }
+    .title-container p {
+        font-size: 30px;
+    }
+    #precios-p{
+        padding: 20px !important;
+        margin-bottom: 25px !important;
+    }
+    #mobile-title-mayoristas {
+        font-size: 25px;
+    }
+    .button-container button {
+        padding: 20px 35px !important;
+    }
+    h5 {
+        font-size: 14px !important;
+    }
+    .button-container2 button {
+        padding: 20px 35px;
+    }
+    .button-container2 h5 {
+        font-size: 17px !important;
+    }
+    footer .social a {
+        margin-bottom: 10px;
+    }
+    #whatsapp {
+        top: 680px;
+        right: 20px;
+    }
+}
+@media (max-width: 480px) {
+    #mobile-title-mayoristas {
+        font-size: 26px;
+        padding: 0 30px 20px;
+    }
+}
+@media (max-width: 450px) {
+    .main-container-comprar {
+        height: 1050px !important;
+    }
+}
+@media (max-width: 420px) {
+    #mobile-title-mayoristas {
+        font-size: 21px;
+    }
+}

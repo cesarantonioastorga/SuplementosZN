@@ -1,0 +1,53 @@
+@font-face {
+    font-family:D-DIN;
+    src: url('../fonts/D-DIN.otf') format('opentype');
+}
+@font-face {
+    font-family:D-DINCondensed;
+    src: url('../fonts/D-DINCondensed.otf') format('opentype');
+}
+@font-face {
+    font-family:DIN Alternate Bold;
+    src: url('../fonts/DIN Alternate Bold.otf') format('opentype');
+}
+@font-face {
+    font-family:iCiel Ultra;
+    src: url('../fonts/iCiel Ultra.ttf') format('truetype');
+}
+@font-face {
+    font-family:Gotham Ultra;
+    src: url('../fonts/Gotham-Ultra.otf') format('opentype');
+}
+.title {
+    font-family: Gotham Ultra;
+    font-size: 40px;
+    letter-spacing: 1px;
+    margin: 30px 0;
+}
+h1 {
+    font-family: Gotham Ultra;
+}
+h5 {
+    margin-bottom: 0!important;
+    font-family: DIN Alternate Bold ;
+}
+p {
+    font-family: D-DIN;
+    font-size: 20px;
+}
+.button-container button {
+    font-family: DIN Alternate Bold;
+}
+
+ul {
+    list-style: none;
+}
+ul li a {
+    font-family: D-DINCondensed;
+    color: white;
+}
+ul li a:hover {
+    color: #909090;
+    cursor: pointer;
+    text-decoration: none;
+}

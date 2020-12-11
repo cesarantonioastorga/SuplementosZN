@@ -1,0 +1,196 @@
+/*__ GENERALES__*/
+#header {
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    right: 0 ;
+}
+.row-pages{
+    background-color: black;
+}
+#logo-nav {
+    width: 200px;
+}
+.menu-pages {
+    background-color: black;
+}
+main {
+    padding-top: 117px;
+}
+#container {
+    padding-left: 0;
+    padding-right: 0;
+}
+.button-container,
+.button-container2{
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+}
+.button-container button {
+    width: 90%;
+    padding: 25px 35px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 50px;
+    background: #000;
+    color: white;
+}
+.button-container2 button {
+    width: 90%;
+    padding: 25px 35px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 50px;
+    background: #d1d1d1;
+    color: white;
+}
+.button-container button:hover,
+.button-container2 button:hover{
+    background: #808080;
+}
+.button-container button:active {
+    background: #d1d1d1;
+}
+.button-container2 button:active {
+    background: black;
+}
+.button-container2 button h5 {
+    color: black;
+    font-size: 28px;
+}
+.button-container2 button:active h5 {
+    color: white;
+}
+/*__ /GENERALES__*/
+
+
+/*__NUESTROS PRECIOS___*/
+.main-container-precios {
+    height: 600px;
+}
+.nuestros-precios-image-container {
+    background-image: url('../images/FotoNuestrosPrecios.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#precios-p{
+    letter-spacing: 0.5px;
+    line-height: 20px;
+    padding-right: 20px;
+    line-height: 22px;
+    margin-bottom: 50px;
+}
+#condiciones {
+    font-size: 12px;
+    padding: 0 10px;
+}
+/*__/NUESTROS PRECIOS___*/
+
+
+/*__COMO COMPRAR__*/
+.main-container-comprar {
+    height: 860px;
+}
+.como-comprar-image-container {
+    background-image: url('../images/FotoComoComprar.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.comprar-p-container {
+    display: flex;
+}
+.comprar-p-container span {
+    text-align: center;
+}
+.comprar-p-container #location img {
+    width: 55px;
+}
+.comprar-p{
+    letter-spacing: 0.5px;
+    line-height: 20px;
+    padding-left: 20px;
+    line-height: 22px;
+    margin-bottom: 50px;
+}
+.comprar-p a {
+    color: black;
+    font-weight: 700;
+}
+/*__/COMO COMPRAR__*/
+
+
+/*__VENTAS MAYORISTAS__*/
+.mayoristas-image-container {
+    background-image: url('../images/PortadaMayoristas.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.mayoristas-main-container {
+    align-self: center;
+    text-align: center;
+}
+.mayoristas-main-container h1 {
+    color: white;
+}
+/*__/VENTAS MAYORISTAS__*/
+
+
+/*__CONTACTO__*/
+.main-container-contacto {
+    height: 600px;
+}
+#location-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    height: 80px;
+}
+#location {
+    align-self: start;
+}
+.contacto-p{
+    letter-spacing: 0.5px;
+    line-height: 20px;
+    padding-left: 20px;
+    line-height: 22px;
+    margin-bottom: 0;
+}
+.contacto-p-container {
+    display: flex;
+    height: 70px;
+    align-items: center;
+}
+.contacto-p-container span {
+    width: 40px;
+    text-align: center;
+}
+.contact-map-container {
+    align-self: center;
+}
+.contact-map-container iframe {
+    width: 500px;
+    height: 350px;
+    margin-left: 95px;
+}
+.description-container {
+    align-self: center;
+}
+#contacto-container {
+    padding-left: 40px;
+    padding-right: 0;
+}
+.contacto-container {
+    align-self: center;
+    padding: 0 !important;
+    height: 460px;
+}
+/*__/CONTACTO__*/
+
+
+
+
+
