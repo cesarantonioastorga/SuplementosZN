@@ -146,11 +146,7 @@ main {
 #location-container {
     display: flex;
     align-items: center;
-    margin-top: 20px;
     height: 80px;
-}
-#location {
-    align-self: start;
 }
 #location img {
     width: 40px;
