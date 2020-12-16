@@ -31,6 +31,11 @@
         font-size: 18px;
     }
 }
+@media (max-width: 1199px) {
+    header nav ul li a {
+        margin-right: 20px;
+    }
+}
 @media (max-width: 991px) {
     .menu-pages div {
         display: none !important;
